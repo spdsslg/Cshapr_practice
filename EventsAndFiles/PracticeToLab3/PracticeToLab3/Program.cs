@@ -91,5 +91,11 @@ public class Program
         
         logFile.FileCreated -= loggerCreated;
         logFile.FileChanged -= loggerChanged;
+        
+        
+        //second part(file hierarchy)
+        using var writer = new StreamWriter("hierarchy.txt");
+        string startRecurrencePoint = RecursiveTraverse.GetStartPoint();
+        RecursiveTraverse.Print(startRecurrencePoint, 10, writer);
     }
 }
