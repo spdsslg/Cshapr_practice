@@ -1,0 +1,4 @@
+Converted image Canti.jpeg to ./convertedAssets/Canti_converted.png in format png at 20.11.2025 23:49:29
+Converted image Canti.jpeg to ./convertedAssets/Canti_converted.gif in format gif at 20.11.2025 23:50:05
+Failed to convert image Canti.jpeg to pp at 20.11.2025 23:50:19 : System.FormatException: Unsupported format.
+   at ImageConverterServer.ImageConverter.Convert(IFormFile file, String format) in /Users/mihailmoroz/c_sharp/CsharpPractice/ImageConverterServer/ImageConverter.cs:line 52
