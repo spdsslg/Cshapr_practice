@@ -2,10 +2,10 @@ namespace ImageConverterServer;
 
 public class ImageConvertedEventArgs:EventArgs
 {
-    string Name { get; }
-    string Format { get; }
-    string Path { get; }
-    DateTime Timestamp { get; }
+    public string Name { get; }
+    public string Format { get; }
+    public string Path { get; }
+    public DateTime Timestamp { get; }
 
     public ImageConvertedEventArgs(string name, string format, string path)
     {
@@ -18,10 +18,10 @@ public class ImageConvertedEventArgs:EventArgs
 
 public class ImageConvertionFailedEventArgs : EventArgs
 {
-    string Name { get; }
-    string Format { get; }
-    Exception Exception { get; }
-    DateTime Timestamp { get; }
+    public string Name { get; }
+    public string Format { get; }
+    public Exception Exception { get; }
+    public DateTime Timestamp { get; }
     public ImageConvertionFailedEventArgs(string name, string format, Exception exception)
     {
         Name = name;
