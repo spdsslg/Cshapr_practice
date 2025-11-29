@@ -2,3 +2,12 @@ Converted image Canti.jpeg to ./convertedAssets/Canti_converted.png in format pn
 Converted image Canti.jpeg to ./convertedAssets/Canti_converted.gif in format gif at 20.11.2025 23:50:05
 Failed to convert image Canti.jpeg to pp at 20.11.2025 23:50:19 : System.FormatException: Unsupported format.
    at ImageConverterServer.ImageConverter.Convert(IFormFile file, String format) in /Users/mihailmoroz/c_sharp/CsharpPractice/ImageConverterServer/ImageConverter.cs:line 52
+Converted image Canti.jpeg to ./convertedAssets/Canti_converted.png in format png at 24.11.2025 16:04:14
+Converted image Canti.jpeg to ./convertedAssets/Canti_converted.png in format png at 24.11.2025 16:10:00
+Failed to convert image Canti.jpeg to pp at 24.11.2025 16:10:12 : System.FormatException: Unsupported format.
+   at ImageConverterServer.ImageConverter.Convert(IFormFile file, String format) in /Users/mihailmoroz/c_sharp/CsharpPractice/ImageConverterServer/ImageConverter.cs:line 52
+Converted image Canti.jpeg to ./convertedAssets/Canti_converted.gif in format gif at 29.11.2025 22:49:43
+Converted image Canti.jpeg to ./convertedAssets/Canti_converted.png in format png at 29.11.2025 22:49:56
+Converted image &#1057;&#1085;&#1080;&#1084;&#1086;&#1082; &#1101;&#1082;&#1088;&#1072;&#1085;&#1072; 2025-11-29 &#1074; 22.44.33.png to ./convertedAssets/&#1057;&#1085;&#1080;&#1084;&#1086;&#1082; &#1101;&#1082;&#1088;&#1072;&#1085;&#1072; 2025-11-29 &#1074; 22.44.33_converted.gif in format gif at 29.11.2025 22:51:18
+Converted image &#1057;&#1085;&#1080;&#1084;&#1086;&#1082; &#1101;&#1082;&#1088;&#1072;&#1085;&#1072; 2025-11-29 &#1074; 22.44.33.png to ./convertedAssets/&#1057;&#1085;&#1080;&#1084;&#1086;&#1082; &#1101;&#1082;&#1088;&#1072;&#1085;&#1072; 2025-11-29 &#1074; 22.44.33_converted.gif in format gif at 29.11.2025 22:51:30
+Converted image testImage2.jpg to ./convertedAssets/testImage2_converted.png in format png at 29.11.2025 23:06:49

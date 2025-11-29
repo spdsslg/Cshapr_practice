@@ -12,7 +12,17 @@
 
   <ItemGroup>
     <Folder Include="convertedAssets\" />
-    <Folder Include="rawAssets\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="rawAssets\Canti.jpeg" />
+    <Content Include="rawAssets\Canti.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Remove="rawAssets\upload.html" />
+    <Content Include="rawAssets\upload.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

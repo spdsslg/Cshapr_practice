@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikesharingStats", "BikesharingStats\BikesharingStats.csproj", "{AAFFA662-60B9-4984-BE59-664B64E83246}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAFFA662-60B9-4984-BE59-664B64E83246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAFFA662-60B9-4984-BE59-664B64E83246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAFFA662-60B9-4984-BE59-664B64E83246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAFFA662-60B9-4984-BE59-664B64E83246}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
